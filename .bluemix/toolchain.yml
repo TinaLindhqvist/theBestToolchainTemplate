@@ -1,0 +1,26 @@
+version: '2'
+template:
+  name: "A Toolchain with a custom tool"
+  description: "This toolchain will be used in System Test. Click CREATE to start."
+  info:
+    git url: >-
+      [https://github.com/TinaLindhqvist/anotherToolTemplate](https://github.com/TinaLindhqvist/anotherToolTemplate)
+    git branch: >-
+      [master](https://github.com/TinaLindhqvist/anotherToolTemplate/tree/master)
+toolchain:
+  name: 'anotherToolTemplate-{{timestamp}}'
+  template:
+    getting_started: "Getting Started Text"
+    
+services:
+  webide:
+    service_id: orion
+  nodered:
+    service_id: nodered
+  runbookautomation:
+    service_id: runbookautomation
+  timeline:
+    service_id: timeline
+  eventmanagement:
+    service_id: eventmanagement
+
