@@ -1,20 +1,17 @@
 version: '2'
 template:
-  name: "A Toolchain with a custom tool"
-  description: "This toolchain will be used in System Test. Click CREATE to start."
+  name: "This will create the best Toolchain"
+  description: "A toolchain to be used in Functional System Test."
   info:
     git url: >-
-      [https://github.com/TinaLindhqvist/anotherToolTemplate](https://github.com/TinaLindhqvist/anotherToolTemplate)
+      [https://github.com/TinaLindhqvist/theBestToolchainTemplate](https://github.com/TinaLindhqvist/anotherToolTemplate)
     git branch: >-
-      [master](https://github.com/TinaLindhqvist/anotherToolTemplate/tree/master)
+      [master](https://github.com/TinaLindhqvist/theBestToolchainTemplate/tree/master)
 toolchain:
-  name: 'anotherToolTemplate-{{timestamp}}'
+  name: 'theBestToolchain-{{timestamp}}'
   template:
-    getting_started: "Getting Started Text"
+    getting_started: "Continue to work with the best Toolchain"
     
 services:
   webide:
     service_id: orion
-  eventmanagement:
-    service_id: eventmanagement
-
