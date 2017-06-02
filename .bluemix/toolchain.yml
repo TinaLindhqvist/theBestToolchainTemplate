@@ -15,12 +15,6 @@ toolchain:
 services:
   webide:
     service_id: orion
-  nodered:
-    service_id: nodered
-  runbookautomation:
-    service_id: runbookautomation
-  timeline:
-    service_id: timeline
   eventmanagement:
     service_id: eventmanagement
 
